@@ -1,0 +1,30 @@
+
+package Ejercicio2;
+
+/**
+ *
+ * @author DELL GP
+ */
+public class MainTermometro {
+    public static void main(String[] args) {
+        Termometro termetro1 = new Termometro(10);
+        
+        termetro1.convertirAF();
+        termetro1.convertirAK();
+        
+    }
+    
+    /*
+    ________________________preguntas____________________
+    
+        ¿Cómo se aplica la encapsulación en este problema?
+        se aplica en los atributos haciendolos privados, para poder restrigir
+        el acceso directo a los datos y protegerlos
+    
+        ¿Cómo se realiza la conversión de temperatura en los métodos?
+        se realiza tomando el valor que asignamos a los grados celsius y con base en ello
+        se hacen las respectivas cob¿nversiones usando las formulas.
+    
+    */
+    
+}
